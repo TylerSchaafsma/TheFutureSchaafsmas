@@ -41,7 +41,7 @@
     border: 2px dashed var(--primary-green);
     display: flex;
     justify-content: center;
-    overflow: auto;
+    overflow-y: auto;
 }
 
 .splitter[b-2cc5vfjqe0] {
@@ -58,6 +58,7 @@
     align-items: center;
     gap: 10px;
     width: 100%;
+    text-align: center;
 }
 
 .edit-section[b-2cc5vfjqe0] {
@@ -69,8 +70,8 @@
 }
 
 .theme-button[b-2cc5vfjqe0] {
-    width: 150px;
-    height: 50px;
+    /*width: 150px;
+    height: 50px;*/
     background: white;
     color: var(--primary-green);
     border: 2px solid var(--primary-green);
@@ -100,15 +101,46 @@
     transition: all 0.2s ease;
 }
 
-    .rsvp-button:hover[b-2cc5vfjqe0] {
-        background: var(--primary-green);
-        color: white;
+.rsvp-button:hover[b-2cc5vfjqe0] {
+    background: var(--primary-green);
+    color: white;
+}
+
+.rsvp-button.selected[b-2cc5vfjqe0] {
+    background: var(--primary-green);
+    color: white;
+}
+
+.plusOneInput[b-2cc5vfjqe0] {
+    width: 300px;
+    border: 2px solid var(--primary-green);
+    border-radius: 5px;
+    color: var(--primary-green);
+    padding: 3px;
+}
+
+.plusOneInput:focus[b-2cc5vfjqe0] {
+    outline: none;
+}
+
+@media (max-width: 760px) {
+    .plusOneInput[b-2cc5vfjqe0] {
+        width: 90%;
     }
 
-    .rsvp-button.selected[b-2cc5vfjqe0] {
-        background: var(--primary-green);
-        color: white;
+    .edit-section[b-2cc5vfjqe0] {
+        width: 90%;
     }
+
+    .theme-button[b-2cc5vfjqe0] {
+        /*width: 100px;
+        height: 35px;*/
+    }
+
+    .rsvp-button[b-2cc5vfjqe0] {
+        padding: 5px;
+    }
+}
 /* /Pages/Index.razor.rz.scp.css */
 :root[b-ly5qvn0tm0] {
     --stripe-width: 25px;
@@ -171,6 +203,15 @@
     width: 100%;
 }
 
+.search-input[b-ly5qvn0tm0] {
+    margin-bottom: 10px;
+    width: 50%;
+    border: 2px solid var(--primary-green);
+    border-radius: 5px;
+    color: var(--primary-green);
+    padding: 3px;
+}
+
 .search-input:focus[b-ly5qvn0tm0] {
     outline: none;
 }
@@ -198,4 +239,10 @@
 .results-button:hover[b-ly5qvn0tm0] {
     background: var(--primary-green);
     color: white;
+}
+
+@media (max-width: 760px) {
+    .search-input[b-ly5qvn0tm0] {
+        width: 90%;
+    }
 }
