@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "RSVPProject",
   "resources": {
-    "hash": "sha256-wMgOGMwHUxcxqD23baG9Nv4xnsOHKUCLGc3nWj/1USs=",
+    "hash": "sha256-2R35XkSxmx4i5Z+OhFzqDOT+Ukpxib2r97ltTT3Nxmk=",
     "jsModuleNative": {
       "dotnet.native.js": "sha256-A16ka545FHaB+QXjyJ4exXh7XpBAAIFnX8YkC4xAng8="
     },
@@ -104,7 +104,7 @@
       "System.wasm": "sha256-25KTxVbx+rD8S9iyUye7jmbj1e4TZ5Ca+elup4oegJA=",
       "netstandard.wasm": "sha256-MCpHYOAT4AJwIlmugVqeN/BtxgoCvD+18P/GsEsIb1k=",
       "System.Private.CoreLib.wasm": "sha256-LoRcjMc9NnbIPOVkrmVpvKOFys8urexgoOVsAJTjX3A=",
-      "RSVPProject.wasm": "sha256-Mg9vPG5lH7BPv7j55oRNdD4wC/+g/9zjaMFRQfUkcdI="
+      "RSVPProject.wasm": "sha256-BeFAVMdDEI6a1GDrMInfwzKN2SkccbX3HvM2/Y16l/4="
     }
   },
   "cacheBootResources": true,
