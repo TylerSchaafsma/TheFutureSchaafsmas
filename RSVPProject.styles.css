@@ -123,6 +123,11 @@
     outline: none;
 }
 
+.name-header[b-2cc5vfjqe0] {
+    font-size: 3rem;
+    color: #9E9D63;
+}
+
 @media (max-width: 760px) {
     .plusOneInput[b-2cc5vfjqe0] {
         width: 90%;
@@ -139,6 +144,14 @@
 
     .rsvp-button[b-2cc5vfjqe0] {
         padding: 5px;
+    }
+
+    .name-header[b-2cc5vfjqe0] {
+        font-size: 2rem;
+    }
+
+    .others-buttons[b-2cc5vfjqe0] {
+        flex-direction: column;
     }
 }
 /* /Pages/Index.razor.rz.scp.css */
